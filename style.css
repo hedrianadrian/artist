@@ -1,0 +1,151 @@
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* Apply a background color to the body */
+body {
+    background: linear-gradient(to bottom, #006400, #14c91a); /* Corporate green gradient */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: url("sage.png");
+}
+
+/* Header styling */
+.header {
+    background-color: #14c91a; /* Darker green */
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px indigo;
+    text-align: center;
+    background-image: url("sage.png");
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    height: 100px; /* Adjust the height as needed */
+}
+
+/* Container styling */
+.container {
+    max-width: 1100px; /* Adjust the width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    color: rgb(253, 253, 253);
+    font-family: Georgia;
+    background-image: url("er.png"); /* Ensure this path is correct */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Avoid repeating */
+    background-position: center; 
+}
+
+/* Form styling */
+form {
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+    font-family: Courier;
+    font-size: 100%;
+    padding: 8px;
+    color: rgb(31, 247, 35);
+    border-radius: 40px;
+    border-style: solid;
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for better readability */
+}
+
+/* Input and button styling */
+label, input, button {
+    display: block;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+button, select {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input,select {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Corporate green */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Adjust padding to change the button size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Adjust font size */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+}
+
+button:hover {
+    background-color: #a08b45; /* Darker green on hover */
+    color: black;
+}
+
+/* Table styling */
+table {
+    width: auto; /* Change to auto to allow the table to size based on its content */
+    max-width: 100%; /* Ensures it doesn't overflow the container */
+    border-collapse: collapse;
+    margin: 20px auto; /* Use shorthand notation for top, right, bottom, and left margins */
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50; /* Corporate green */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+td {
+    background-color: #55859b;
+    color: rgb(255, 255, 255);
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #008000; /* Dark green */
+    font-family: Verdana;
+}
+
+nav a:hover {
+    background-color: #006400; /* Slightly darker green on hover */
+}
